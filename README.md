@@ -25,6 +25,6 @@ The following options were selected (manually selected features):
 
 Steps to reproduce:
 
-1. Have the ability to run a build in docker (Version 18.09.2 Community)
+1. Have the ability to run a build in docker (Version 19.03.5 Community)
 2. Run `docker build -t vue-cli-issue-5191 .`
 3. Witness how linting errors are thrown for every file in the project while building in docker step 5 (`npm run build`) and the build fails
